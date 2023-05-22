@@ -1,0 +1,19 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsafari143/capstone-js.git"
+  },
+  "author": "Safari Hamuli and Tamoor saeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielsafari143/capstone-js/issues"
+  },
+  "homepage": "https://github.com/danielsafari143/capstone-js#readme"
+}
