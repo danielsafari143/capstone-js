@@ -1,3 +1,3 @@
-test('try' , () => {
-    expect(34).toBe(34)
-})
+test('try', () => {
+  expect(34).toBe(34);
+});
