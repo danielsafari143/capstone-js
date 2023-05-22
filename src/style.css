@@ -1,3 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
 h1 {
   background-color: brown;
+}
+
+.movieItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 16vw;
+  padding: 10px;
+}
+
+.movieBottomPart {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.movieImage {
+  width: 14vw;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.heart {
+    color: red;
 }
