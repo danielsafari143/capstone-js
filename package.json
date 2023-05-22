@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "dev": "webpack --mode development",
+    "start": "webpack server --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,28 @@
   "bugs": {
     "url": "https://github.com/danielsafari143/capstone-js/issues"
   },
-  "homepage": "https://github.com/danielsafari143/capstone-js#readme"
+  "homepage": "https://github.com/danielsafari143/capstone-js#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^29.5.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.8",
+    "html-webpack-plugin": "^5.5.1",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "style-loader": "^3.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "svg-inline-loader": "^0.8.2",
+    "svg-url-loader": "^8.0.0",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
 }
