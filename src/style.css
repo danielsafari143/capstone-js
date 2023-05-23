@@ -53,3 +53,26 @@ h1 {
 .heart {
   color: rgb(0, 0, 0);
 }
+
+.foot {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid black;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 590px) {
+  .items {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movieImage {
+    width: 50vw;
+  }
+
+  .movieItem {
+    width: 50vw;
+  }
+}
