@@ -1,9 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel', serif;
+  font-family: 'Fauna One', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
 html {
   font-family: 'Roboto', serif;
 }
 
 body {
-  color: grey;
+  color: rgb(255, 255, 255);
+  background-color: rgb(4, 175, 243);
 }
 
 .logo {
@@ -55,17 +67,6 @@ ul li:hover {
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lato&family=Montserrat:wght@600&family=Poppins:wght@300&display=swap');
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Cinzel', serif;
-  font-family: 'Fauna One', serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
-}
-
 h1 {
   background-color: brown;
 }
@@ -102,18 +103,19 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .heart {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .foot {
   margin-top: 10px;
-  padding: 15px;
+  padding: 10px;
   border: 1px solid black;
-  font-weight: 700;
+  font-weight: 400;
+  width: 100%;
 }
 
 @media only screen and (max-width: 590px) {
@@ -130,4 +132,10 @@ h1 {
   .movieItem {
     width: 50vw;
   }
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
