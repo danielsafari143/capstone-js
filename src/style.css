@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -40,5 +42,9 @@ h1 {
 }
 
 .heart {
-    color: red;
+    color: rgb(0, 0, 0);
+}
+
+.likes {
+    margin-bottom: 10px;
 }
