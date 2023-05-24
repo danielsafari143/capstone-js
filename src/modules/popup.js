@@ -1,5 +1,5 @@
 import { Modal } from 'bootstrap';
-
+import insertValue from './insertValue';
 const popUpContainer = document.getElementById('staticBackdrop');
 const modal = document.querySelector('.modal');
 let output = '';
@@ -68,14 +68,14 @@ const showModalPopup = async (ids) => {
           Please enter a username.
         </div>
     </div>
-    <div class="col-md-4 mb-3 input-container">
-      <textarea class="form-control required" id="textarea" placeholder="Your insights" required></textarea>
+    <div class="col-md-4 mb-3 id="name" input-container">
+      <textarea class="form-control id="textarea" required" id="textarea" placeholder="Your insights" required></textarea>
       <div class="invalid-feedback">
           Please enter a comment.
         </div>
     </div>
     <div class="col-12 btn-submit">
-      <button class="btn btn-1 submit comments" type="submit">Comment</button>
+      <button class="btn btn-1 submit comments" id="sub" type="submit">Comment</button>
     </div>
     </form>
         </div>
@@ -91,7 +91,6 @@ const showModalPopup = async (ids) => {
       focus: true,
     });
     myModal.show();
-
     (() => {
       const forms = document.querySelectorAll('.needs-validation');
       Array.prototype.slice.call(forms)
@@ -101,12 +100,15 @@ const showModalPopup = async (ids) => {
               event.preventDefault();
               event.stopPropagation();
             }
-
             form.classList.add('was-validated');
           }, false);
         });
     })();
+    document.getElementById('sub').addEventListener('click' , () => {
+      const name = document.getElementById('name').value;
+      const text = document.getElementById('textarea').value;
+      insertValue(id , name , text)
+    })
   }
 };
-
 export default showModalPopup;
