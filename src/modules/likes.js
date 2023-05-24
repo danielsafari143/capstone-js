@@ -4,7 +4,7 @@ import updateLikes from './updateLike.js';
 
 const likes = async (idRef) => {
   const val = parseInt(idRef, 10);
-  if (!Number.isNaN(val)) {
+  if (!Number.isNaN(val) && val < 267095) {
     await sendLikes('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/DonU6QfOk4iiEnTnnZtN/likes/', val);
     const ids = document.getElementById(idRef);
     const parent = ids.parentNode;
