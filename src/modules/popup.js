@@ -1,5 +1,6 @@
 import { Modal } from 'bootstrap';
-import insertValue from './insertValue';
+import insertValue from './insertValue.js';
+
 const popUpContainer = document.getElementById('staticBackdrop');
 const modal = document.querySelector('.modal');
 let output = '';
@@ -104,11 +105,11 @@ const showModalPopup = async (ids) => {
           }, false);
         });
     })();
-    document.getElementById('sub').addEventListener('click' , () => {
+    document.getElementById('sub').addEventListener('click', () => {
       const name = document.getElementById('name').value;
       const text = document.getElementById('textarea').value;
-      insertValue(id , name , text)
-    })
+      insertValue(id, name, text);
+    });
   }
 };
 export default showModalPopup;
