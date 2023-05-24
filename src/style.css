@@ -137,7 +137,6 @@ footer p {
   gap: 10px;
 }
 
-
 @media only screen and (max-width: 768px) {
   .popup-image {
     grid-template-columns: 1fr 1fr;
