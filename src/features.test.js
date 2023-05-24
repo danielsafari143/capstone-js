@@ -40,13 +40,17 @@ describe('Add tests for items counter', () => {
     const counterElement = document.getElementById('counterItem');
 
     const data = await counterItem(responseFromApi, counterElement);
-    console.log(counterElement);
 
     expect(data.length).toEqual(10);
   });
 
   it('Updates the html counter element  ', async () => {
+    const response = await fetch('https://api.tvmaze.com/search/shows?q=girls');
+    const responseFromApi = await response.json();
     const counterElement = document.getElementById('counterItem');
+
+    await counterItem(responseFromApi, counterElement);
+
     expect(counterElement.innerHTML).toEqual('(10)');
   });
 
