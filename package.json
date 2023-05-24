@@ -9,6 +9,11 @@
     "start": "webpack server --open",
     "build": "webpack --mode production"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielsafari143/capstone-js.git"
@@ -23,6 +28,7 @@
     "@babel/preset-env": "^7.21.5",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^29.5.0",
+    "boostrap": "^2.0.0",
     "css-loader": "^6.7.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -31,6 +37,7 @@
     "html-webpack-plugin": "^5.5.1",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
+    "jest-fetch-mock": "^3.0.3",
     "style-loader": "^3.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
@@ -43,6 +50,6 @@
     "webpack-dev-server": "^4.13.3"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "regenerator-runtime": "^0.13.11"
   }
 }
