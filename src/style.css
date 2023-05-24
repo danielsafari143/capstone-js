@@ -58,13 +58,14 @@ li {
 
 .card {
   box-shadow: 0.3px 6px 8px rgb(0, 0, 0, 0.8);
+  border: 1px solid blue;
   border-radius: 10px;
 }
 
 .card-img-top {
   border-radius: 10px;
-  object-fit:contain;
-  padding-top:10px ;
+  object-fit: contain;
+  padding-top: 10px;
   height: 300px;
 }
 
@@ -136,9 +137,6 @@ footer p {
   gap: 10px;
 }
 
-.card {
-  border: 1px solid blue;
-}
 
 @media only screen and (max-width: 768px) {
   .popup-image {
