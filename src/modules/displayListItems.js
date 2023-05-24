@@ -15,7 +15,7 @@ const displayListItems = async (itemsApi) => {
                                     </div>
                                      <span  class="likes"><P id=${`${apiData[i].show.id}like`} >0 like</P></span>
                                      <div class="btn-container">
-                                       <a href="#" class="btn btn-1 comments">Comments</a>
+                                       <a href="#" id=${parseInt(apiData[i].show.id, 10) + 267095} class="btn btn-1 comments">Comments</a>
                                      </div>
                                    </div>
                                </div>
