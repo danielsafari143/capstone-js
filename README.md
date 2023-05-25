@@ -191,9 +191,8 @@ You can deploy this project using:
 
 👤 **Safari Hamuli**
 
-- GitHub: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
+- GitHub: [@githubhandle](https://github.com/danielsafari143)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/safari-daniel-a01744251/)
 
 👤 **Tamoor saeed**
 
