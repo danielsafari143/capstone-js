@@ -105,10 +105,12 @@ const showModalPopup = async (ids) => {
           }, false);
         });
     })();
-    document.getElementById('sub').addEventListener('click', () => {
+    document.getElementById('sub').addEventListener('click', async () => {
       const name = document.getElementById('name').value;
       const text = document.getElementById('textarea').value;
-      insertValue(id, name, text);
+      await insertValue(id, name, text);
+      myModal.hide();
+      showModalPopup(ids);
     });
   }
 };
