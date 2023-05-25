@@ -193,6 +193,8 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/danielsafari143)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/safari-daniel-a01744251/)
+- GitHub: [@githubhandle](https://github.com/danielsafari143)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/safari-daniel-a01744251/)
 
 👤 **Tamoor saeed**
 
