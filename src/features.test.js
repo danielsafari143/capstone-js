@@ -60,7 +60,6 @@ describe('Add tests for items counter', () => {
     const counterElement = document.getElementById('counterItem');
 
     const data = await counterItem(responseFromApi, counterElement);
-    console.log(counterElement);
 
     await expect(data).toBe(0);
   });
