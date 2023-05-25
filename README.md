@@ -125,12 +125,9 @@ This is KanBan board Project under the supervision of the Microverse platform th
  ## [🚀 Live Demo](#live-demo)
 
  https://danielsafari143.github.io/capstone-js/build/
-<<<<<<< HEAD
-=======
- 
+
   ## [🚀Video]
  [Zoom video](https://drive.google.com/file/d/1rOBlvYLnQLl3yxJEkwxZG229XSZMHEUB/view?usp=drive_link)
->>>>>>> 74c87b3f37c60c50d21aaebec18d9102de27cf54
 
 <!-- GETTING STARTED -->
 
@@ -255,8 +252,5 @@ I would like to thank my colleague and Microverse for the opportunity
 
 ## 📝 License <a name="license"></a>
 
-<<<<<<< HEAD
 This project is [MIT](./LICENSE) licensed.
-=======
-This project is [MIT](./LICENSE) licensed.
->>>>>>> 74c87b3f37c60c50d21aaebec18d9102de27cf54
+
