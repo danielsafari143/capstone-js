@@ -125,6 +125,9 @@ This is KanBan board Project under the supervision of the Microverse platform th
  ## [🚀 Live Demo](#live-demo)
 
  https://danielsafari143.github.io/capstone-js/build/
+ 
+  ## [🚀Video]
+ [Zoom video](https://drive.google.com/file/d/1rOBlvYLnQLl3yxJEkwxZG229XSZMHEUB/view?usp=drive_link)
 
 <!-- GETTING STARTED -->
 
@@ -188,9 +191,8 @@ You can deploy this project using:
 
 👤 **Safari Hamuli**
 
-- GitHub: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
+- GitHub: [@githubhandle](https://github.com/danielsafari143)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/safari-daniel-a01744251/)
 
 👤 **Tamoor saeed**
 
@@ -249,4 +251,4 @@ I would like to thank my colleague and Microverse for the opportunity
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./License) licensed.
