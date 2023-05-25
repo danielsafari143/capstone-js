@@ -125,6 +125,9 @@ This is KanBan board Project under the supervision of the Microverse platform th
  ## [🚀 Live Demo](#live-demo)
 
  https://danielsafari143.github.io/capstone-js/build/
+ 
+  ## [🚀Video]
+ [Zoom video](https://drive.google.com/file/d/1rOBlvYLnQLl3yxJEkwxZG229XSZMHEUB/view?usp=drive_link)
 
 <!-- GETTING STARTED -->
 
