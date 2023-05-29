@@ -202,3 +202,66 @@ footer p {
     width: 100%;
   }
 }
+
+.pop-up {
+  background-color: white;
+}
+
+.btn {
+  color: black;
+}
+
+.addInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.addInfo ul {
+  padding: 0;
+  margin: 0;
+}
+
+.addInfo p {
+  margin: 0;
+  padding: 0;
+}
+
+.carte {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.images {
+  width: 10vw;
+}
+
+.certain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#cmmtId {
+  width: 100%;
+}
+
+.input {
+  width: 400px;
+}
