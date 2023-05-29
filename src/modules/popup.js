@@ -9,7 +9,7 @@ const showModalPopup = async (ids) => {
   if (ids > 267095) {
     const id = ids - 267095;
     const additionInfo = await fetchingData(`https://api.tvmaze.com/shows/${id}`);
-    const comment = await fetchingData(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/fUbqF1yL645NYNB2lPxl/comments?item_id=${id}`);
+    const comment = await fetchingData(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/oQY2tT2Wba5rNrRwD9NX/comments?item_id=${id}`);
     console.log(comment);
     windowPopUp.innerHTML = `
     <div class="modal-dialog modal-dialog-centered  modal-lg">
